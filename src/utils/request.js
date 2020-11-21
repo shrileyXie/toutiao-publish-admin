@@ -8,7 +8,7 @@ import axios from 'axios'
 // 通过这个实例发请求，处理需要的配置
 const request = axios.create({
   // 请求的基础路径
-  baseURL: 'http://ttapi.research.itcast.cn'
+  baseURL: 'http://ttapi.research.itcast.cn/'
 })
 
 // 请求拦截器
